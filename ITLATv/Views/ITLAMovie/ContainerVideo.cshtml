@@ -1,0 +1,48 @@
+﻿@model Application.ViewModels.SaveSeriesViewModel
+
+@{
+    ViewData["Title"] = "Detalles de la Serie";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <h2>@Model.Name</h2>
+
+    @{
+
+        var videoId = ObtenerIdVideoYouTube(Model.URL);
+
+        var embedUrl = $"https://www.youtube.com/embed/{videoId}";
+    }
+
+    <div class="series-container1">
+        <iframe width="100%" height="500" src="@embedUrl" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<div>
+    <p style="font-size:19px;">Producer: @Model.Name</p>
+
+
+
+    <p>Genres: Terror, Comedy </p>
+    
+       
+</div>
+<div class="row">
+</div>
+
+<div>
+    <form asp-controller="ITLAMovie" asp-action="Index">
+        <div class="form-group">
+            <button type="submit" class="btn btn-warning">Volver Atras</button>
+        </div>
+    </form>
+</div>
+
+@functions {
+    public string ObtenerIdVideoYouTube(string enlaceCompleto)
+    {
+        var uri = new Uri(enlaceCompleto);
+        var videoId = System.Web.HttpUtility.ParseQueryString(uri.Query).Get("v");
+        return videoId;
+    }
+}

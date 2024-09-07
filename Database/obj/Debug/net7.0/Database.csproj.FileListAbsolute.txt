@@ -1,0 +1,14 @@
+D:\LeonardoItlaTv\ITLATv\Database\bin\Debug\net7.0\Database.deps.json
+D:\LeonardoItlaTv\ITLATv\Database\bin\Debug\net7.0\Database.runtimeconfig.json
+D:\LeonardoItlaTv\ITLATv\Database\bin\Debug\net7.0\Database.dll
+D:\LeonardoItlaTv\ITLATv\Database\bin\Debug\net7.0\Database.pdb
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\Database.csproj.AssemblyReference.cache
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\Database.AssemblyInfoInputs.cache
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\Database.AssemblyInfo.cs
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\Database.csproj.CoreCompileInputs.cache
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\Database.dll
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\refint\Database.dll
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\Database.pdb
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\Database.genruntimeconfig.cache
+D:\LeonardoItlaTv\ITLATv\Database\obj\Debug\net7.0\ref\Database.dll

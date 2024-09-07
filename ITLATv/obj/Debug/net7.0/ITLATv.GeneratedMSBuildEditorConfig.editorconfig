@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ITLATv
+build_property.RootNamespace = ITLATv
+build_property.ProjectDir = D:\LeonardoItlaTv\ITLATv\ITLATv\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\LeonardoItlaTv\ITLATv\ITLATv
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Gender/CreateEditGender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXENyZWF0ZUVkaXRHZW5kZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Gender/DeleteGender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXERlbGV0ZUdlbmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Gender/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/ITLAMovie/ContainerVideo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSVRMQU1vdmllXENvbnRhaW5lclZpZGVvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/ITLAMovie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSVRMQU1vdmllXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Producer/CreateEditProducer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcQ3JlYXRlRWRpdFByb2R1Y2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Producer/DeleteProducer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcRGVsZXRlUHJvZHVjZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Producer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Series/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Series/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Series/SaveSerie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyaWVzXFNhdmVTZXJpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LeonardoItlaTv/ITLATv/ITLATv/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3kob10cl5l

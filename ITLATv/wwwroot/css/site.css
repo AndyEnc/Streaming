@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+body {
+    background: linear-gradient(185deg, #74f64c 0%, #3fd212dab 100%);
+    color: aqua;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+    .container img {
+        max-width: 100%;
+        height: 500px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        border: 3px solid;
+    }
+
+.cardStyle {
+    background: linear-gradient(135deg, #343a40 0%, #495057 100%);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .cardStyle:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+.series-container .card {
+    filter: drop-shadow(10px 7px 10px white);
+    margin-bottom: 25px;
+}
+
+.series-container1 .card {
+    filter: drop-shadow(15px 10px 20px red);
+    margin-bottom: 18px;
+}
+
+.series-container2 .card {
+    filter: drop-shadow(15px 10px 20px blue);
+    margin-bottom: 20px;
+}
+
+.series-container3 .card {
+    filter: drop-shadow(15px 10px 20px orange);
+    margin-bottom: 30px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar-nav > li > a {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.navbar-toggler {
+    padding: .20rem .50rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #000;
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+    transition: 1s all;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-bottom: 4px;
+    font-size: 27px;
+}
+
+.navbar-red:hover .wrapper {
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-red {
+    background-color: red;
+    color: #fff;
+}
+
+.all-show {
+    z-index: 10;
+}
+
+/* Add Extravagant Animations */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.cardStyle:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(270deg, #1f1c2c, #928dab);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+}

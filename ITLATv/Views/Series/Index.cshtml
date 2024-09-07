@@ -1,0 +1,30 @@
+﻿@model List<Application.ViewModels.SeriesViewModel>
+@{
+    ViewData["Title"] = "ITLAMovie Serie";
+}
+
+<div class="row">
+    <div class="mb-4 align-content-center">
+        <a asp-controller="Series" asp-action="Create" class="btn btn-sm btn-success">Create <i class="fa-solid fa-plus"></i></a>
+    </div>
+</div>
+
+<div class="row">
+    @foreach (Application.ViewModels.SeriesViewModel item in Model)
+    {
+        <div class="col-4 series-container">
+            <form method="post">
+                <div class="card shadow-sm bg-black text-white cardStyle">
+                    <img class="bd-placeholder-img card-img-top" src="@item.ImageP" />
+                    <div class="card-body bg-black text-white">
+                        <h4>Title: @item.Name</h4>
+                        <p>Gender: @string.Join(", ", item.Genders.Concat(item.GendersSecondary))</p>
+                        <p>Producers: @item.ProducerName </p>
+                        <a asp-controller="Series" asp-action="Update" asp-route-id="@item.Id" class="btn btn-sm btn-success">Update <i class="fa-solid fa-pen-to-square"></i></a>
+                        <a asp-controller="Series" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete <i class="fa-solid fa-delete-left"></i></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    }
+</div>

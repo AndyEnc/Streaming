@@ -1,0 +1,41 @@
+﻿@model List<Application.ViewModels.ProducerViewModel>
+@{
+    ViewData["Title"] = "Home Producer";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col">
+            <a asp-controller="Producer" asp-action="Create" class="btn btn-sm btn-success">
+                Create <i class="fa-solid fa-plus"></i>
+            </a>
+        </div>
+    </div>
+    <h1>List Of Producers</h1>
+    <div class="row">
+        @foreach (var producer in Model)
+        {
+            <div class="col-md-3 mb-4 series-container2">
+                <div class="card shadow-sm bg-black text-white">
+                    <div class="card-header">
+                        <h4 class="card-title">Name: @producer.Name</h4>
+                    </div>
+                    <div class="card-body">
+                        <a asp-controller="Producer" asp-action="Update" asp-route-id="@producer.Id" class="btn btn-sm btn-success">
+                            Edit <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                        <a asp-controller="Producer" asp-action="DeleteProducer" asp-route-id="@producer.Id" class="btn btn-sm btn-danger" onclick="return confirmarEliminacion('@producer.Name')">
+                            Delete <i class="fa-solid fa-delete-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    function confirmarEliminacion(productoraNombre) {
+        return confirm(`¿Estás seguro que quieres eliminar la productora '${productoraNombre}'? Si la eliminas, las series asociadas se eliminarán también.`);
+    }
+</script>
